@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 @objc class Constants: NSObject {
     
@@ -23,6 +24,11 @@ import Foundation
     
     struct Keys {
         static let flickrAPIKey     = "3e7cc266ae2b0e0d78e279ce8e361736"
+    }
+    
+    struct Float {
+        static let padding: CGFloat          = 40.0
+        static let numberOfColumns: CGFloat  = 3.0
     }
     
     

@@ -104,6 +104,6 @@ class PhotoListViewModel {
     }
     
     func itemSize() -> CGFloat {
-        return (UIScreen.main.bounds.width-40)/3
+        return (UIScreen.main.bounds.width - Constants.Float.padding)/Constants.Float.numberOfColumns
     }
 }
